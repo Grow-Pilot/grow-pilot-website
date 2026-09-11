@@ -1,0 +1,15 @@
+# Redirect old English entry point to new structure
+/indexUK.html /en/ 301!
+
+# Pretty URLs are on by default in Netlify — no extra config needed
+# Custom 404 is handled by /404.html if you ever add one
+
+/algemene-voorwaarden      /documenten/algemene-voorwaarden.pdf      301
+/verwerkersovereenkomst    /documenten/verwerkersovereenkomst.pdf    301
+/av                        /documenten/algemene-voorwaarden.pdf      301
+/privacybeleid             /privacy                                  301
+
+/in-de-praktijk            /klanten                                  301
+/klantcases                /klanten                                  301
+/en/in-practice            /en/customers                             301
+/en/klanten                /en/customers                             301

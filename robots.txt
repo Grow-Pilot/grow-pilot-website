@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /privacy/
+Disallow: /en/demo/applied/
+Disallow: /demo/aangemeld/
+Disallow: /sessie/
+Disallow: /instructies/
+Disallow: /tarieven/
+
+Sitemap: https://www.grow-pilot.nl/sitemap.xml
