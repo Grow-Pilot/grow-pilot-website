@@ -157,3 +157,4 @@ var GP_EN = document.documentElement.lang === 'en';
     sl.querySelectorAll('.slider-arrow').forEach(function (b) { b.addEventListener('click', function () { show(i + parseInt(b.getAttribute('data-dir'), 10)); }); });
   });
 })();
+
