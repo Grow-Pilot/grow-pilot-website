@@ -1,0 +1,41 @@
+GrowPilot website — redesign (Variant C "Logo-stijl") — NL + EN
+================================================================
+
+Inhoud van deze zip = de complete nieuwe site. Zet de inhoud in de root van de
+GitHub-repo (growpilotbv/grow-pilot-website), bestaande mappen overschrijven.
+Netlify deployt automatisch vanaf main.
+
+Nieuwe / vervangen mappen en bestanden
+  index.html                       Home
+  klanten/                         Overzicht + 6 detailpagina's
+  updates/                         Overzicht + 5 detailpagina's (takenmodule, verscherpte-controle,
+                                   foto-verplicht, scoremethodes, bonusmodule)
+  over-ons/                        NIEUW
+  contact/                         vervangt
+  demo/  +  demo/aangemeld/        vervangt (formulier via web3forms, zelfde sleutel als nu)
+  tarieven/                        vervangt (calculator, zelfde rekenregels)
+  sessie/  +  sessie/bedankt/      vervangt (alleen NL)
+  privacy/                         vervangt
+  instructies/                     vervangt (alleen NL; Loom-links nog in te vullen)
+  en/                              vervangt de hele map — Engelse versie van alle pagina's:
+                                   en/, en/customers (+6), en/updates (+5), en/about, en/contact,
+                                   en/demo, en/demo/applied, en/tarieven, en/privacy
+  assets/css/site.css              gedeeld door alle pagina's
+  assets/js/site.js                gedeeld door alle pagina's (NL/EN teksten op basis van <html lang>)
+  assets/img/  assets/logos/       aanvullingen; niets wordt overschreven
+  sitemap.xml  robots.txt          bijgewerkt (NL + EN, hreflang)
+
+Blijft staan zoals het is
+  documenten/   (PDF's + _redirects-paden ongewijzigd)
+  _redirects    (geen aanpassing nodig; oude regels blijven kloppen)
+
+Taal
+  Elke NL-pagina linkt via "NL · EN" naar zijn Engelse tegenhanger en andersom.
+  Online sessie en instructies zijn alleen in het Nederlands; de EN-pagina's vermelden dat
+  ("in Dutch") en linken naar /sessie.
+
+Nog in te vullen
+  - Instructies: Loom-links per video (staan nu op "#").
+  - Bonusmodule: live-datum zodra bekend (staat nu "In ontwikkeling" / "In development").
+  - Nieuwe app-screenshots (min. 700×1340) voor de sliders.
+  - Scherpere luchtfoto voor het bewijs-blok op Home.

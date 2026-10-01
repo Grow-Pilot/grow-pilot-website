@@ -3,8 +3,8 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.grow-pilot.nl/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/"/>
@@ -12,34 +12,70 @@
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/en/</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/demo/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <loc>https://www.grow-pilot.nl/klanten/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/en/demo/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <loc>https://www.grow-pilot.nl/en/customers/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/over-ons/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/over-ons/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/over-ons/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/about/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/over-ons/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/over-ons/"/>
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/contact/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/contact/"/>
@@ -48,7 +84,7 @@
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/en/contact/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/contact/"/>
@@ -56,23 +92,225 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/contact/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/klanten/</loc>
+    <loc>https://www.grow-pilot.nl/demo/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/en/customers/</loc>
+    <loc>https://www.grow-pilot.nl/en/demo/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/updates/</loc>
+    <loc>https://www.grow-pilot.nl/klanten/tomeco/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/tomeco/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/tomeco/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/tomeco/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/en/updates/</loc>
+    <loc>https://www.grow-pilot.nl/en/customers/tomeco/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/tomeco/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/tomeco/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/tomeco/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/klanten/bioverbeek/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/bioverbeek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/bioverbeek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/bioverbeek/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/bioverbeek/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/bioverbeek/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/bioverbeek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/bioverbeek/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/klanten/vitensa/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/vitensa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/vitensa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/vitensa/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/vitensa/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/vitensa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/vitensa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/vitensa/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/klanten/agrocare/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/agrocare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/agrocare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/agrocare/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/agrocare/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/agrocare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/agrocare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/agrocare/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/klanten/viridis/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/viridis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/viridis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/viridis/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/viridis/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/viridis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/viridis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/viridis/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/klanten/noordhuys/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/noordhuys/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/noordhuys/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/noordhuys/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/takenmodule/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/takenmodule/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/takenmodule/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/takenmodule/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/takenmodule/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/takenmodule/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/takenmodule/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/takenmodule/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/verscherpte-controle/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/verscherpte-controle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/verscherpte-controle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/verscherpte-controle/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/verscherpte-controle/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/verscherpte-controle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/verscherpte-controle/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/verscherpte-controle/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/foto-verplicht/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/foto-verplicht/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/foto-verplicht/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/foto-verplicht/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/foto-verplicht/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/foto-verplicht/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/foto-verplicht/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/foto-verplicht/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/scoremethodes/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/scoremethodes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/scoremethodes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/scoremethodes/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/scoremethodes/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/scoremethodes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/scoremethodes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/scoremethodes/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/updates/bonusmodule/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/bonusmodule/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/bonusmodule/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/bonusmodule/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/documenten/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
