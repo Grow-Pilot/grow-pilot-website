@@ -824,3 +824,29 @@ body.modal-open{overflow:hidden}
 .hero-single h1{max-width:900px}
 @media (max-width:1024px){.calc-grid{grid-template-columns:1fr}.result{position:static}}
 @media (max-width:640px){.form-row{grid-template-columns:1fr}.rates{font-size:13px}.rates th,.rates td{padding:8px 6px}.result{padding:20px}.total-price{font-size:32px}}
+
+/* ---------- volle breedte: achtergrond over het hele scherm, content op 1440 ---------- */
+body{background:var(--white)}
+.page{max-width:none}
+.page>*:not(.footer):not(.cookie):not(.modal){max-width:1440px;margin-left:auto;margin-right:auto}
+.page>.block{width:calc(100% - 2*var(--gutter));max-width:calc(1440px - 2*var(--gutter))}
+.footer{max-width:none}
+.footer>*{max-width:calc(1440px - 2*var(--gutter));margin-left:auto;margin-right:auto}
+.hero-glow{right:max(0px,calc((100vw - 1440px)/2))}
+
+/* ---------- testimonial slider (home) ---------- */
+.tslider{position:relative}
+.tslides{position:relative}
+.tslide{animation:tfade .5s ease-out both}
+.tslide .proof-text::before{content:"“"}.tslide .proof-text::after{content:"”"}
+.tslide .proof-who{margin-top:28px}
+@keyframes tfade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.tdots{display:flex;gap:8px}
+.tdot{width:10px;height:10px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.25);cursor:pointer;transition:background .2s,transform .2s}
+.tdot.is-on{background:var(--green);transform:scale(1.2)}
+.tdot:hover{background:rgba(255,255,255,.5)}
+.tslider .proof-text{font-size:24px}
+.tslide-long .proof-text{font-size:19px;line-height:1.45}
+.lead strong{color:var(--ink);font-weight:700}
+.logos-row a{display:flex;align-items:center;transition:opacity .2s}
+.logos-row a:hover{opacity:.7}

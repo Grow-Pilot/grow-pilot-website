@@ -158,3 +158,19 @@ var GP_EN = document.documentElement.lang === 'en';
   });
 })();
 
+
+/* Testimonial slider (home): dots + auto-rotatie */
+(function () {
+  var box = document.getElementById('tslider'); if (!box) return;
+  var slides = box.querySelectorAll('.tslide'), dots = box.querySelectorAll('.tdot'), i = 0, t;
+  function show(n) {
+    i = (n + slides.length) % slides.length;
+    slides.forEach(function (s, k) { s.hidden = k !== i; });
+    dots.forEach(function (d, k) { d.classList.toggle('is-on', k === i); });
+  }
+  function start() { clearInterval(t); t = setInterval(function () { show(i + 1); }, 8000); }
+  dots.forEach(function (d, k) { d.addEventListener('click', function () { show(k); start(); }); });
+  box.addEventListener('mouseenter', function () { clearInterval(t); });
+  box.addEventListener('mouseleave', start);
+  start();
+})();
