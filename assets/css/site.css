@@ -832,7 +832,6 @@ body{background:var(--white)}
 .page>.block{width:calc(100% - 2*var(--gutter));max-width:calc(1440px - 2*var(--gutter))}
 .footer{max-width:none}
 .footer>*{max-width:calc(1440px - 2*var(--gutter));margin-left:auto;margin-right:auto}
-.hero-glow{right:max(0px,calc((100vw - 1440px)/2))}
 
 /* ---------- testimonial slider (home) ---------- */
 .tslider{position:relative}
@@ -850,3 +849,10 @@ body{background:var(--white)}
 .lead strong{color:var(--ink);font-weight:700}
 .logos-row a{display:flex;align-items:center;transition:opacity .2s}
 .logos-row a:hover{opacity:.7}
+
+/* ---------- Michael 1/10: zachte hero-gloed zonder harde randen, kaarten op lichte ondergrond ---------- */
+.hero{overflow:visible}
+.hero-glow{top:-80px;right:-160px;width:1100px;height:900px;background:radial-gradient(600px 520px at 60% 32%,rgba(63,182,24,.16),rgba(63,182,24,0) 70%)}
+.kgrid .kcard,.kgrid .card{background:var(--surface);border:1px solid transparent}
+.kgrid .kcard:hover,.kgrid .card-module:hover{background:#fff;border-color:var(--border)}
+@media (max-width:640px){.hero-glow{right:-300px;width:900px}}
