@@ -170,6 +170,15 @@ var GP_EN = document.documentElement.lang === 'en';
   }
   function start() { clearInterval(t); t = setInterval(function () { show(i + 1); }, 8000); }
   dots.forEach(function (d, k) { d.addEventListener('click', function () { show(k); start(); }); });
+  var prev = box.querySelector('.tprev'), next = box.querySelector('.tnext');
+  if (prev) prev.addEventListener('click', function () { show(i - 1); start(); });
+  if (next) next.addEventListener('click', function () { show(i + 1); start(); });
+  var x0 = null;
+  box.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  box.addEventListener('touchend', function (e) {
+    if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) { show(dx < 0 ? i + 1 : i - 1); start(); }
+  }, { passive: true });
   box.addEventListener('mouseenter', function () { clearInterval(t); });
   box.addEventListener('mouseleave', start);
   start();
