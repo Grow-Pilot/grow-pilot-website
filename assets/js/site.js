@@ -12,7 +12,7 @@ var GP_EN = document.documentElement.lang === 'en';
       entries.forEach(function (e) {
         if (e.isIntersecting) { e.target.setAttribute('data-reveal', 'in'); io.unobserve(e.target); }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
     revealEls.forEach(function (el) { io.observe(el); });
   }
 

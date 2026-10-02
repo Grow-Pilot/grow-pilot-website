@@ -334,7 +334,7 @@ h3{font-size:24px;letter-spacing:-.02em}
 @keyframes notif{0%,55%{opacity:0;transform:translateY(24px) scale(.96)}63%,90%{opacity:1;transform:none}97%,100%{opacity:0;transform:translateY(-10px)}}
 @keyframes travel{0%{top:0;opacity:0}10%,90%{opacity:1}100%{top:calc(100% - 11px);opacity:0}}
 @keyframes travelx{0%{left:0;opacity:0}10%,90%{opacity:1}100%{left:calc(100% - 11px);opacity:0}}
-[data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .7s ease-out,transform .7s ease-out}
+[data-reveal]{opacity:0;transform:translateY(20px);transition:opacity .45s ease-out,transform .45s ease-out}
 [data-reveal="in"]{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
@@ -856,3 +856,21 @@ body{background:var(--white)}
 .kgrid .kcard,.kgrid .card{background:var(--surface);border:1px solid transparent}
 .kgrid .kcard:hover,.kgrid .card-module:hover{background:#fff;border-color:var(--border)}
 @media (max-width:640px){.hero-glow{right:-300px;width:900px}}
+
+/* ---------- mobiel 2/10: korter, grotere klikvlakken, compacte cijfers ---------- */
+@media (max-width:640px){
+  .hero-collage .col-photo-1,.hero-collage .col-photo-3,.hero-collage .kpi-card{display:none}
+  .hero-collage .col-photo-2{height:300px}
+  .textlink{display:inline-flex;align-items:center;min-height:44px}
+  .btn-nav{min-height:44px;display:inline-flex;align-items:center}
+  .footer-links a{display:block;padding:10px 0}
+  .footer p a[href^="tel:"],.footer p a[href^="mailto:"],.contact-card a[href^="tel:"],.contact-card a[href^="mailto:"]{display:inline-block;padding:8px 0}
+  .tdot{position:relative}
+  .tdot::after{content:"";position:absolute;inset:-17px}
+  .tile-s{font-size:12px}
+  .cards-3.stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .cards-3.stats .stat{flex-direction:column;align-items:center;gap:6px;min-width:0;padding:16px 8px;text-align:center}
+  .cards-3.stats .stat .node{display:none}
+  .cards-3.stats .stat-v{font-size:26px;line-height:1.1}
+  .cards-3.stats .stat-l{font-size:11px;line-height:1.3}
+}
