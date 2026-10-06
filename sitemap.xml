@@ -92,22 +92,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/contact/"/>
   </url>
   <url>
-    <loc>https://www.grow-pilot.nl/demo/</loc>
+    <loc>https://www.grow-pilot.nl/kennismaken/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/kennismaken/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/kennismaken/"/>
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/en/demo/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/kennismaken/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/demo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/kennismaken/"/>
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/klanten/tomeco/</loc>

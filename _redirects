@@ -13,3 +13,9 @@
 /klantcases                /klanten                                  301
 /en/in-practice            /en/customers                             301
 /en/klanten                /en/customers                             301
+
+# Kennismaken (voorheen /demo)
+/demo                  /kennismaken                  301!
+/demo/                 /kennismaken                  301!
+/demo/aangemeld        /kennismaken/aangemeld        301!
+/demo/aangemeld/       /kennismaken/aangemeld        301!

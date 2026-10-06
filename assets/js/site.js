@@ -126,7 +126,7 @@ var GP_EN = document.documentElement.lang === 'en';
         .catch(fail);
     });
   }
-  wire('demo-form', function () { window.location.href = GP_EN ? '/en/demo/applied/' : '/demo/aangemeld/'; });
+  wire('demo-form', function () { window.location.href = GP_EN ? '/en/demo/applied/' : '/kennismaken/aangemeld/'; });
   wire('contact-form', function (form) { form.hidden = true; var ok = document.getElementById('contact-ok'); if (ok) ok.hidden = false; });
 })();
 
