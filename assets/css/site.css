@@ -895,3 +895,22 @@ body{background:var(--white)}
   .footer-grid>div:last-child .footer-links{grid-template-columns:1fr}
 }
 @media (max-width:640px){.footer-info{font-size:14px}}
+
+/* ---------- 19/10: kostentegel in probleemblok + missieblok ---------- */
+.cost-tile{margin-top:28px;padding:24px 28px;border-radius:22px;background:rgba(255,255,255,.07);display:inline-block;min-width:320px}
+.cost-v{font-size:40px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.cost-v em{font-style:normal;color:var(--green);font-size:56px}
+.cost-l{margin-top:8px;font-size:15px;font-weight:600;color:rgba(255,255,255,.85)}
+.cost-s{margin-top:4px;font-size:13px;color:rgba(255,255,255,.55);font-weight:600}
+.mission{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding:64px;border-radius:var(--r-block);background:var(--tint);margin:0 var(--gutter) 24px}
+.mission h2{margin-bottom:0}
+.mission p{margin:0;font-size:18px;line-height:1.6;color:var(--cta-text)}
+.mission p strong{color:var(--ink)}
+@media (max-width:900px){.mission{grid-template-columns:1fr;gap:20px;padding:40px 28px}}
+@media (max-width:640px){.cost-tile{min-width:0;width:100%;padding:20px}.cost-v{font-size:32px}.cost-v em{font-size:44px}}
+.mission h2 em{font-style:normal;color:var(--green)}
+.page>.mission{width:calc(100% - 2*var(--gutter));max-width:calc(1440px - 2*var(--gutter));margin-left:auto;margin-right:auto}
+.h2-prob{font-size:38px;line-height:1.08;text-wrap:initial}@media (max-width:640px){.h2-prob{font-size:30px}}
+
+.arbeid-box{margin-top:18px;padding:14px 16px;border-radius:16px;background:var(--tint);font-size:14px;line-height:1.5;color:var(--cta-text)}
+.arbeid-k{display:block;font:12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--green-dark);margin-bottom:4px}

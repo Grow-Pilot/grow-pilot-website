@@ -90,6 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="result-total"><span class="b" style="font-size:17px">Total per month</span><div class="r"><div class="total-price">€ <span id="total-amount">—</span></div><div class="meta" style="font-size:12px">excl. VAT</div></div></div>
 <div class="result-m2 meta" id="result-m2"><span id="m2-text"></span></div>
 <div class="jaar-row" id="jaar-row"><div><div class="b">With annual agreement <span class="badge badge-live" id="jaar-saving"></span></div><div class="meta" id="jaar-row-sub" style="font-size:13px"></div></div><div class="r"><div class="b" id="jaar-row-price">€ —</div><div class="meta" style="font-size:12px">per year, excl. VAT</div></div></div>
+<div class="arbeid-box" id="arbeid-box"><span class="arbeid-k">To put it in perspective</span><span id="arbeid-text"></span></div>
 <div class="checks" style="margin-top:18px;font-weight:500;font-size:14px">
 <div><span class="node node-sm"></span>Unlimited workers and foremen</div>
 <div><span class="node node-sm"></span>Unlimited sites</div>
@@ -125,6 +126,7 @@ const T = {
   jaarRowSub: '10 monthly instalments. Effectively {eff} per month.',
   jaarRowSubM2: '10 monthly instalments. Effectively {eff} per month · {m2} per m² per year.',
   perM2jaar: 'per m² per year',
+  arbeid: 'Labour costs range from € 25 to € 50 per m² per year. For this area, GrowPilot comes to {pct}% of that.',
 };
 const RATES = {
   klein: { fixed: 850 },
@@ -250,6 +252,9 @@ function calculate() {
     document.getElementById('m2-text').textContent=`€${fmtDec(eff)} ${t.perM2jaar}`;
     m2el.style.display='block';
   } else { m2el.style.display='none'; }
+  const effAll=(totalMonth*12)/(total*10000);
+  const pct=(effAll/25*100).toLocaleString(document.documentElement.lang==='en'?'en-GB':'en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
+  document.getElementById('arbeid-text').textContent = t.arbeid.replace('{pct}', pct);
 }
 
 
