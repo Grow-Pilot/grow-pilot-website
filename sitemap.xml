@@ -313,4 +313,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/video/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/video/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/video/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/video/"/>
+  </url>
 </urlset>
