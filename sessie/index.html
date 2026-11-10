@@ -31,6 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
+<style>.session-past{opacity:.45}.session-past .session-date{text-decoration:line-through}.session-past .session-meta::after{content:" · geweest"}</style>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV53X2LN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -56,9 +57,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="side-card" style="margin-bottom:20px">
       <div class="sessions-label">Kies een datum</div>
       <div class="sessions-list spine spine-soft">
-        <div class="session"><span class="node"></span><div><div class="session-date">Maandag 5 oktober</div><div class="session-meta">10.00 uur · online · 45 min</div></div></div>
-        <div class="session"><span class="node node-off"></span><div><div class="session-date">Dinsdag 3 november</div><div class="session-meta">09.00 uur · online · 45 min</div></div></div>
-        <div class="session"><span class="node node-off"></span><div><div class="session-date">Donderdag 3 december</div><div class="session-meta">11.00 uur · online · 45 min</div></div></div>
+        <div class="session session-past"><span class="node node-off"></span><div><div class="session-date">Maandag 5 oktober</div><div class="session-meta">10.00 uur · online · 45 min</div></div></div>
+        <div class="session session-past"><span class="node node-off"></span><div><div class="session-date">Dinsdag 3 november</div><div class="session-meta">09.00 uur · online · 45 min</div></div></div>
+        <div class="session"><span class="node"></span><div><div class="session-date">Donderdag 3 december</div><div class="session-meta">11.00 uur · online · 45 min</div></div></div>
       </div>
       <p class="meta" style="margin-top:14px">Je krijgt de link na aanmelding.</p>
     </div>
@@ -93,7 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section class="logos" data-reveal style="padding-bottom:48px">
   <span class="logos-label">Hier draait GrowPilot</span>
   <div class="logos-row">
-    <img src="/assets/logos/bioverbeek.png" alt="BioVerbeek" style="height:40px"><img src="/assets/logos/vitensa.png" alt="Vitensa" style="height:44px"><img src="/assets/logos/tomeco.png" alt="Tomeco" style="height:44px"><img src="/assets/logos/agrocare.png" alt="AgroCare" style="height:44px"><img src="/assets/logos/viridis-eco.png" alt="Viridis Eco" style="height:40px"><img src="/assets/logos/noordhuys.png" alt="Noordhuys" style="height:28px">
+    <img src="/assets/logos/bioverbeek.png" alt="BioVerbeek" style="height:40px"><img src="/assets/logos/vitensa.png" alt="Vitensa" style="height:44px"><img src="/assets/logos/tomeco.png" alt="Tomeco" style="height:44px"><img src="/assets/logos/agrocare.png" alt="AgroCare" style="height:44px"><img src="/assets/logos/viridis-eco.png" alt="Viridis Eco" style="height:40px"><img src="/assets/logos/noordhuys.png" alt="Noordhuys" style="height:28px"><img src="/assets/logos/tomatomasters.png" alt="Tomato Masters" style="height:38px">
   </div>
 </section>
 
@@ -106,7 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <input type="hidden" name="from_name" value="GrowPilot landingspagina sessie">
       <input type="hidden" name="redirect" value="https://www.grow-pilot.nl/sessie/bedankt/">
       <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
-      <label>Welke datum past je?<select name="Datum" required><option value="" disabled selected>Maak een keuze</option><option>Maandag 5 oktober, 10.00 uur</option><option>Dinsdag 3 november, 09.00 uur</option><option>Donderdag 3 december, 11.00 uur</option><option>Alle drie de datums kunnen</option></select></label>
+      <label>Welke datum past je?<select name="Datum" required><option value="" disabled selected>Maak een keuze</option><option disabled>Maandag 5 oktober, 10.00 uur (geweest)</option><option disabled>Dinsdag 3 november, 09.00 uur (geweest)</option><option>Donderdag 3 december, 11.00 uur</option></select></label>
       <div class="form-row"><label>Naam<input type="text" name="Naam" required autocomplete="name"></label><label>Bedrijf<input type="text" name="Bedrijf" required autocomplete="organization"></label></div>
       <div class="form-row"><label>E-mailadres<input type="email" name="E-mail" required autocomplete="email"></label><label>Telefoonnummer<input type="tel" name="Telefoon" required autocomplete="tel"></label></div>
       <div class="form-row"><label>Aantal hectare<input type="text" name="Hectare" placeholder="Bijvoorbeeld 12" required></label><label>Padregistratiesysteem<select name="Padregistratiesysteem" required><option value="">Maak een keuze</option><option>Ridder Productive</option><option>Nitea IT</option><option>Priva FS</option><option>Anders</option><option>Geen</option></select></label></div>
