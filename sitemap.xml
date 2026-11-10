@@ -208,6 +208,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/noordhuys/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
   </url>
+<url>
+    <loc>https://www.grow-pilot.nl/klanten/tomatomasters/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/tomatomasters/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/tomatomasters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/tomatomasters/"/>
+  </url>
   <url>
     <loc>https://www.grow-pilot.nl/en/customers/noordhuys/</loc>
     <lastmod>2026-10-01</lastmod>
@@ -216,6 +225,15 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/noordhuys/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/noordhuys/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/customers/tomatomasters/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/klanten/tomatomasters/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/customers/tomatomasters/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/klanten/tomatomasters/"/>
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/updates/takenmodule/</loc>
