@@ -317,6 +317,15 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
   </url>
   <url>
+    <loc>https://www.grow-pilot.nl/updates/inwerktraject-per-activiteit/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/inwerktraject-per-activiteit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/onboarding-per-activity/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/inwerktraject-per-activiteit/"/>
+  </url>
+  <url>
     <loc>https://www.grow-pilot.nl/en/updates/bonusmodule/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -324,6 +333,15 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/bonusmodule/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/bonusmodule/"/>
+  </url>
+  <url>
+    <loc>https://www.grow-pilot.nl/en/updates/onboarding-per-activity/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.grow-pilot.nl/updates/inwerktraject-per-activiteit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.grow-pilot.nl/en/updates/onboarding-per-activity/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.grow-pilot.nl/updates/inwerktraject-per-activiteit/"/>
   </url>
   <url>
     <loc>https://www.grow-pilot.nl/documenten/</loc>
