@@ -40,6 +40,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
 <link href="/assets/css/site.css" rel="stylesheet"/>
 <style>.session-past{opacity:.45}.session-past .session-date{text-decoration:line-through}.session-past .btn{display:none}</style>
+<style>
+.sticker{position:absolute;right:-22px;top:-30px;width:156px;height:156px;border-radius:50%;background:var(--green);color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;text-decoration:none;transform:rotate(8deg);box-shadow:0 14px 34px rgba(20,32,26,.18);z-index:5;transition:transform .25s ease}
+.sticker::before{content:"";position:absolute;inset:7px;border-radius:50%;border:1.5px dashed rgba(20,32,26,.45)}
+.sticker:hover{transform:rotate(4deg) scale(1.04)}
+.sticker .s1{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-family:'JetBrains Mono',monospace}
+.sticker .s2{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1;margin:4px 0 2px}
+.sticker .s3{font-size:12px;font-weight:600;line-height:1.2;max-width:110px}
+.sticker .s4{font-size:10px;margin-top:6px;opacity:.75}
+@media (max-width:1100px){.sticker{right:-10px;top:-20px;width:136px;height:136px}.sticker .s2{font-size:30px}}
+@media (max-width:640px){.sticker{display:none}}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -77,6 +88,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </div>
 <div class="hero-collage">
+    <a aria-label="Try six weeks free of obligation" class="sticker" href="/en/demo/#proefperiode"><span class="s1">Now</span><span class="s2">6 weeks</span><span class="s3">free trial period</span><span class="s4">until end of March 2027</span></a>
 <div class="col-line col-line-1"></div>
 <div class="col-line col-line-2"></div>
 <span class="node col-node-1"></span>
@@ -320,7 +332,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="cta-glow"></div>
 <div class="cta-text">
 <h2 class="h2-cta">Want more grip on your greenhouse too?</h2>
-<p class="body cta-body">Book an introduction for your own business, or sit in on the online session with other growers first. 45 minutes with Lowie and Ramon: you see how GrowPilot is set up at other companies and discuss how things can be done differently and better.</p>
+<p class="body cta-body">Book an introduction for your own business, or sit in on the online session with other growers first. 45 minutes with Lowie and Ramon: you see how GrowPilot is set up at other companies and discuss how things can be done differently and better. Until the end of March 2027 you can then try GrowPilot for six weeks in your own greenhouse, free of obligation.</p>
 <div class="btn-row">
 <a class="btn btn-primary" href="/en/demo/">Book an introduction</a>
 <a class="btn btn-white" href="/sessie">Join the online session</a>

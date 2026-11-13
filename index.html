@@ -39,6 +39,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
 <style>.session-past{opacity:.45}.session-past .session-date{text-decoration:line-through}.session-past .btn{display:none}</style>
+<style>
+.sticker{position:absolute;right:-22px;top:-30px;width:156px;height:156px;border-radius:50%;background:var(--green);color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;text-decoration:none;transform:rotate(8deg);box-shadow:0 14px 34px rgba(20,32,26,.18);z-index:5;transition:transform .25s ease}
+.sticker::before{content:"";position:absolute;inset:7px;border-radius:50%;border:1.5px dashed rgba(20,32,26,.45)}
+.sticker:hover{transform:rotate(4deg) scale(1.04)}
+.sticker .s1{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-family:'JetBrains Mono',monospace}
+.sticker .s2{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1;margin:4px 0 2px}
+.sticker .s3{font-size:12px;font-weight:600;line-height:1.2;max-width:110px}
+.sticker .s4{font-size:10px;margin-top:6px;opacity:.75}
+@media (max-width:1100px){.sticker{right:-10px;top:-20px;width:136px;height:136px}.sticker .s2{font-size:30px}}
+@media (max-width:640px){.sticker{display:none}}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -80,6 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
   <div class="hero-collage">
+    <a href="/kennismaken#proefperiode" class="sticker" aria-label="Zes weken vrijblijvend proberen"><span class="s1">Nu</span><span class="s2">6 weken</span><span class="s3">vrijblijvend proberen</span><span class="s4">tot eind maart 2027</span></a>
     <div class="col-line col-line-1"></div>
     <div class="col-line col-line-2"></div>
     <span class="node col-node-1"></span>
@@ -336,7 +348,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="cta-glow"></div>
   <div class="cta-text">
     <h2 class="h2-cta">Wil je ook meer grip op je kas?</h2>
-    <p class="body cta-body">Plan een kennismakingsgesprek voor jouw bedrijf, of kijk eerst mee tijdens de online sessie met andere telers. 45 minuten met Lowie en Ramon: je ziet hoe GrowPilot bij andere bedrijven is ingericht en bespreekt hoe het anders en beter kan.</p>
+    <p class="body cta-body">Plan een kennismakingsgesprek voor jouw bedrijf, of kijk eerst mee tijdens de online sessie met andere telers. 45 minuten met Lowie en Ramon: je ziet hoe GrowPilot bij andere bedrijven is ingericht en bespreekt hoe het anders en beter kan. Tot eind maart 2027 probeer je GrowPilot daarna zes weken vrijblijvend in je eigen kas.</p>
     <div class="btn-row">
       <a href="/kennismaken" class="btn btn-primary">Plan een kennismakingsgesprek</a>
       <a href="/sessie" class="btn btn-white">Meld je aan voor de online sessie</a>
